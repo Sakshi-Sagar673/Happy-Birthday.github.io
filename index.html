@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sakshi Sagar</title>
+		<link rel="icon" type="image/ico" href="Images/Logo.jpg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<audio autoplay loop>
+			<source src="Birthday song.mp3">
+		</audio>
+    </head>
+ <body>
+     <div class="back"></div>
+     <div class="area">
+	     <div class="one">
+		     Happy Birthday
+		 </div>
+		 <div class="name">Ninja Hattori</div>
+		 <div class="wishes">
+			You’ve been there for me through all my ups and downs, and I hope you know I’m always here for you too. Thanks for being such a wonderful best friend. I hope you have a great birthday, and the year ahead is the best yet!
+		 </div>
+	 </div>
+	 <div class="imgarea">
+	     <div class="img left">
+		      <div data-aos="zoom-in">
+				  <img src="Images/1.jpg" alt="">
+				</div>
+			</div>
+		 <div class="img right">
+			<div data-aos="zoom-in">
+				<img src="Images/2.png" alt="">
+			</div>
+		</div>
+		<div class="img left">
+			<div data-aos="zoom-in">
+				<img src="Images/3.jpg" alt="">
+			</div>
+		</div>
+		<div class="img right">
+			<div data-aos="zoom-in">
+				<img src="Images/4.jpg" alt="">
+			</div>
+		</div>
+		<div class="img left">
+			<div data-aos="zoom-in">
+				<img src="Images/5.jpg" alt="">
+			</div>
+		</div>
+		<div class="img right">
+			<div data-aos="zoom-in">
+				<img src="Images/6.jpg" alt="">
+			</div>
+		</div>
+
+	</div>
+	
+		 <script src="confetti.js"></script>
+    <!-- Confetti  JS-->
+    <script>
+
+        // start
+
+        const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        };
+
+        //  Stop
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 50000); // 50000 is time that after 30 second stop the confetti ( 50000 = 50 sec)
+        };
+
+        start();
+        stop();
+		AOS.init(0);
+    </script>
+ </body>
+</html>
+	

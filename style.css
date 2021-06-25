@@ -1,0 +1,51 @@
+*{
+	padding:0;
+	margin:0;
+	font-family:cursive;
+	color:#fff;
+}
+.back{
+	width:100%;
+	height:100vh;
+	position:fixed;
+	background:url(Images/Back.jpg);
+	background-size: cover;
+	z-index: -100;
+}
+.area{
+	font-size:125px;
+	font-weight:normal;
+}
+.one{
+	padding-left:2%;
+	color: #FEF637;
+	font-family: 'Great Vibes', cursive;
+}
+.name{
+	font-size:120px;
+	padding-right: 25%;
+	text-align:right;
+	color:#6CF32D;
+	font-family: 'Great Vibes', cursive;
+}
+.wishes{
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin-bottom: 150px;
+	padding: 10%;
+}
+.imgarea{
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 150px;
+}
+.img{
+    width: 50%;
+	margin-top: 80px;
+}
+img{
+	width:100%;
+}
+.right{
+	margin-left: 50%;
+}
